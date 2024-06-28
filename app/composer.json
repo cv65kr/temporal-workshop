@@ -1,0 +1,20 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "temporal/sdk": "^2.10",
+    "spiral/tokenizer": "^3.13",
+    "symfony/console": "^5.4 || ^6.0 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Temporal\\Samples\\": "src",
+      "Temporal\\SampleUtils\\": "util-src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
